@@ -1,0 +1,37 @@
+.SlidebarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.SlidebarOption:hover {
+    opacity: 0.9;
+    background-color: #340e36
+}
+
+.SlidebarOption > h2 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.SlidebarOption > .slidebarOption__channels {
+ display: flex;
+ align-items: center;
+ margin-left: 5px;
+}
+
+.slidebarOption__channels > h2 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.slidebarOption__Icon {
+    padding: 10px;
+    font-size: 15px !important;
+}
+
+.slidebarOption__hashTags {
+    padding: 10px;
+    font-size: 15px !important;
+}

@@ -1,0 +1,23 @@
+.messages {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.messages > img {
+    height: 10vh;
+    width: 10vh;
+    margin-right: 5px;
+    object-fit: contain;
+}
+
+.messages__info > h4 {
+    font-size: 18px;
+}
+
+.messages__timestamp {
+    color: grey;
+    font-weight: 300;
+    font-size: 13px;
+    margin-left: 5px;
+}
